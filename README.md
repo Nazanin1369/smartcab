@@ -1,4 +1,4 @@
-# Project 4: Reinforcement Learning
+## Reinforcement Learning
 ## Train a Smartcab How to Drive
 
 ### Install
@@ -20,6 +20,9 @@ Alternativly, to see the game gui:
 In a terminal or command window, navigate to the top-level project directory `smartcab/` (that contains this README) and run one of the following commands:
 
 ```python smartcab/agent.py```
+
+OR
+
 ```python -m smartcab.agent```
 
 This will run the `agent.py` file and execute your agent code.
