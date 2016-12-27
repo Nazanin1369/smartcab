@@ -1,0 +1,538 @@
+ 👾  python agent.py
+in console
+Environment ready
+Redirector ready
+run ready
+Graph display ready
+RandomAgent ready
+StateAgent Ready
+BasicLearningAgent Ready
+LearningAgent Ready
+runGrid ready
+running....
+Simulator.__init__(): Unable to import pygame; display disabled.
+ImportError: dlopen(/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pygame/base.so, 2): no suitable image found.  Did find:
+	/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pygame/base.so: no matching architecture in universal wrapper
+Simulator.run(): Trial 0
+Environment.reset(): Trial set up with start = (8, 2), destination = (8, 6), deadline = 20
+RoutePlanner.route_to(): destination = (8, 6)
+Trial 0 - Goal reached 0 times out of 0!
+----------------------------------------------------------
+Environment.step(): Primary agent ran out of time! Trial aborted.
+Simulator.run(): Trial 1
+Environment.reset(): Trial set up with start = (7, 1), destination = (4, 4), deadline = 30
+RoutePlanner.route_to(): destination = (4, 4)
+FAIL! 0 steps to goal,Goal reached 0 times out of 1!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 2
+Environment.reset(): Trial set up with start = (4, 2), destination = (6, 6), deadline = 30
+RoutePlanner.route_to(): destination = (6, 6)
+PASS! 3 steps to goal,Goal reached 1 times out of 2!
+----------------------------------------------------------
+Environment.step(): Primary agent ran out of time! Trial aborted.
+Simulator.run(): Trial 3
+Environment.reset(): Trial set up with start = (7, 5), destination = (2, 1), deadline = 45
+RoutePlanner.route_to(): destination = (2, 1)
+FAIL! 0 steps to goal,Goal reached 1 times out of 3!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 4
+Environment.reset(): Trial set up with start = (2, 4), destination = (8, 4), deadline = 30
+RoutePlanner.route_to(): destination = (8, 4)
+PASS! 21 steps to goal,Goal reached 2 times out of 4!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 5
+Environment.reset(): Trial set up with start = (1, 5), destination = (2, 1), deadline = 25
+RoutePlanner.route_to(): destination = (2, 1)
+PASS! 6 steps to goal,Goal reached 3 times out of 5!
+----------------------------------------------------------
+Environment.step(): Primary agent ran out of time! Trial aborted.
+Simulator.run(): Trial 6
+Environment.reset(): Trial set up with start = (3, 5), destination = (2, 2), deadline = 20
+RoutePlanner.route_to(): destination = (2, 2)
+FAIL! 0 steps to goal,Goal reached 3 times out of 6!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 7
+Environment.reset(): Trial set up with start = (3, 5), destination = (6, 1), deadline = 35
+RoutePlanner.route_to(): destination = (6, 1)
+PASS! 12 steps to goal,Goal reached 4 times out of 7!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 8
+Environment.reset(): Trial set up with start = (6, 4), destination = (4, 1), deadline = 25
+RoutePlanner.route_to(): destination = (4, 1)
+PASS! 28 steps to goal,Goal reached 5 times out of 8!
+----------------------------------------------------------
+^CTraceback (most recent call last):
+  File "agent.py", line 708, in <module>
+    QLearnFeatures,QLdeadlines,QLrewards=run(agentType=LearningAgent,trials=100, deadline=True,gui=console, delay=.1)
+  File "agent.py", line 103, in run
+    sim.run(n_trials=trials)  # run for a specified number of trials
+  File "/Users/nazanindelam/Desktop/smartcab/smartcab/simulator.py", line 100, in run
+    self.quit = True
+KeyboardInterrupt
+ 👾  python agent.py > log.txt
+^C/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/numpy/core/_methods.py:59: RuntimeWarning: Mean of empty slice.
+  warnings.warn("Mean of empty slice.", RuntimeWarning)
+ 👾  python agent.py
+in console
+Environment ready
+Redirector ready
+run ready
+Graph display ready
+RandomAgent ready
+StateAgent Ready
+BasicLearningAgent Ready
+LearningAgent Ready
+runGrid ready
+running....
+Simulator.__init__(): Unable to import pygame; display disabled.
+ImportError: dlopen(/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pygame/base.so, 2): no suitable image found.  Did find:
+	/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pygame/base.so: no matching architecture in universal wrapper
+Simulator.run(): Trial 0
+Environment.reset(): Trial set up with start = (1, 3), destination = (4, 4), deadline = 20
+RoutePlanner.route_to(): destination = (4, 4)
+Trial 0 - Goal reached 0 times out of 0!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 1
+Environment.reset(): Trial set up with start = (8, 5), destination = (5, 1), deadline = 35
+RoutePlanner.route_to(): destination = (5, 1)
+PASS! 7 steps to goal,Goal reached 1 times out of 1!
+----------------------------------------------------------
+Environment.step(): Primary agent ran out of time! Trial aborted.
+Simulator.run(): Trial 2
+Environment.reset(): Trial set up with start = (5, 1), destination = (4, 4), deadline = 20
+RoutePlanner.route_to(): destination = (4, 4)
+FAIL! 0 steps to goal,Goal reached 1 times out of 2!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 3
+Environment.reset(): Trial set up with start = (8, 4), destination = (3, 1), deadline = 40
+RoutePlanner.route_to(): destination = (3, 1)
+PASS! 4 steps to goal,Goal reached 2 times out of 3!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 4
+Environment.reset(): Trial set up with start = (2, 4), destination = (6, 5), deadline = 25
+RoutePlanner.route_to(): destination = (6, 5)
+PASS! 22 steps to goal,Goal reached 3 times out of 4!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 5
+Environment.reset(): Trial set up with start = (8, 5), destination = (1, 5), deadline = 35
+RoutePlanner.route_to(): destination = (1, 5)
+PASS! 1 steps to goal,Goal reached 4 times out of 5!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 6
+Environment.reset(): Trial set up with start = (3, 2), destination = (6, 3), deadline = 20
+RoutePlanner.route_to(): destination = (6, 3)
+PASS! 26 steps to goal,Goal reached 5 times out of 6!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 7
+Environment.reset(): Trial set up with start = (5, 2), destination = (7, 6), deadline = 30
+RoutePlanner.route_to(): destination = (7, 6)
+PASS! 10 steps to goal,Goal reached 6 times out of 7!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 8
+Environment.reset(): Trial set up with start = (4, 3), destination = (8, 2), deadline = 25
+RoutePlanner.route_to(): destination = (8, 2)
+PASS! 18 steps to goal,Goal reached 7 times out of 8!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 9
+Environment.reset(): Trial set up with start = (4, 3), destination = (7, 6), deadline = 30
+RoutePlanner.route_to(): destination = (7, 6)
+PASS! 14 steps to goal,Goal reached 8 times out of 9!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 10
+Environment.reset(): Trial set up with start = (5, 5), destination = (1, 2), deadline = 35
+RoutePlanner.route_to(): destination = (1, 2)
+PASS! 12 steps to goal,Goal reached 9 times out of 10!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 11
+Environment.reset(): Trial set up with start = (1, 4), destination = (6, 4), deadline = 25
+RoutePlanner.route_to(): destination = (6, 4)
+PASS! 15 steps to goal,Goal reached 10 times out of 11!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 12
+Environment.reset(): Trial set up with start = (7, 5), destination = (1, 6), deadline = 35
+RoutePlanner.route_to(): destination = (1, 6)
+PASS! 12 steps to goal,Goal reached 11 times out of 12!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 13
+Environment.reset(): Trial set up with start = (5, 1), destination = (7, 6), deadline = 35
+RoutePlanner.route_to(): destination = (7, 6)
+PASS! 22 steps to goal,Goal reached 12 times out of 13!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 14
+Environment.reset(): Trial set up with start = (5, 1), destination = (8, 6), deadline = 40
+RoutePlanner.route_to(): destination = (8, 6)
+PASS! 26 steps to goal,Goal reached 13 times out of 14!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 15
+Environment.reset(): Trial set up with start = (4, 4), destination = (6, 6), deadline = 20
+RoutePlanner.route_to(): destination = (6, 6)
+PASS! 25 steps to goal,Goal reached 14 times out of 15!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 16
+Environment.reset(): Trial set up with start = (7, 5), destination = (3, 4), deadline = 25
+RoutePlanner.route_to(): destination = (3, 4)
+PASS! 16 steps to goal,Goal reached 15 times out of 16!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 17
+Environment.reset(): Trial set up with start = (1, 1), destination = (7, 2), deadline = 35
+RoutePlanner.route_to(): destination = (7, 2)
+PASS! 9 steps to goal,Goal reached 16 times out of 17!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 18
+Environment.reset(): Trial set up with start = (2, 1), destination = (6, 5), deadline = 40
+RoutePlanner.route_to(): destination = (6, 5)
+PASS! 26 steps to goal,Goal reached 17 times out of 18!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 19
+Environment.reset(): Trial set up with start = (4, 5), destination = (6, 1), deadline = 30
+RoutePlanner.route_to(): destination = (6, 1)
+PASS! 32 steps to goal,Goal reached 18 times out of 19!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 20
+Environment.reset(): Trial set up with start = (2, 5), destination = (7, 4), deadline = 30
+RoutePlanner.route_to(): destination = (7, 4)
+PASS! 10 steps to goal,Goal reached 19 times out of 20!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 21
+Environment.reset(): Trial set up with start = (2, 4), destination = (4, 6), deadline = 20
+RoutePlanner.route_to(): destination = (4, 6)
+PASS! 21 steps to goal,Goal reached 20 times out of 21!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 22
+Environment.reset(): Trial set up with start = (2, 6), destination = (8, 2), deadline = 50
+RoutePlanner.route_to(): destination = (8, 2)
+PASS! 10 steps to goal,Goal reached 21 times out of 22!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 23
+Environment.reset(): Trial set up with start = (4, 3), destination = (2, 5), deadline = 20
+RoutePlanner.route_to(): destination = (2, 5)
+PASS! 24 steps to goal,Goal reached 22 times out of 23!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 24
+Environment.reset(): Trial set up with start = (1, 3), destination = (3, 1), deadline = 20
+RoutePlanner.route_to(): destination = (3, 1)
+PASS! 8 steps to goal,Goal reached 23 times out of 24!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 25
+Environment.reset(): Trial set up with start = (5, 6), destination = (2, 2), deadline = 35
+RoutePlanner.route_to(): destination = (2, 2)
+PASS! 12 steps to goal,Goal reached 24 times out of 25!
+----------------------------------------------------------
+^CSuccessful runs = 24
+----------------------------------------------------------
+Qtable:  31
+state=light, oncoming, right, left, next_waypoint  / actions= [None, 'forward', 'left', 'right']
+
+state=red, left, None, None, left / action=[0.04052311880162319, -0.4295397868310429, -0.1509184946996791, -0.2316492739064202]
+state=red, None, None, forward, forward / action=[0.4029701467736051, 0.6725306606763781, 0.5671224735927156, -0.788855085730622]
+state=red, None, None, None, right / action=[0.11062818290208193, -0.6064644736539526, -0.6839202196807508, 2.5056184659712826]
+state=red, left, None, None, forward / action=[0.37763364047438724, -0.6496298677210011, -0.8109319116685534, 0.27222226473767375]
+state=red, None, None, left, right / action=[0.8486773620444403, 0.3315374026717284, -0.10840543223843602, -0.3481942380834242]
+state=green, right, None, None, forward / action=[0.32819267322016854, 0.47376923743252575, -0.53035918081397, 0.33816285226963894]
+state=red, None, None, right, left / action=[0.7118325104451635, 0.246118502526409, 0.020853234509927043, -0.5943561948147774]
+state=green, None, None, None, forward / action=[0.28270422323305966, 7.825166982538287, -0.19765692644128025, -0.15647478322479816]
+state=green, None, None, left, None / action=[0.6395239661901115, 0.5493892814510608, -0.9081382984027233, 0.8982443063950678]
+state=green, None, None, None, left / action=[0.16509630764903238, 0.5157471410884633, 2.3529273041855383, 0.2991466081082974]
+state=red, forward, None, None, left / action=[-0.055737489430109144, -0.8754223432414303, 0.9311543273521137, -0.5862083312997307]
+state=green, None, None, None, None / action=[0.9580866622422637, 0.059424828663552365, 0.49905993161505857, 0.0778906946302198]
+state=green, None, None, None, right / action=[-0.30431793337631774, -0.4264317118077725, -0.1492742883804417, 2.3675894922705316]
+state=red, None, forward, None, forward / action=[0.3525867858340999, 0.02055210618171488, 0.4940276288842316, -0.6642431752449303]
+state=red, None, left, None, forward / action=[0.015877900825861824, 0.32008505663741316, 0.8755053117086213, -0.4657913153016143]
+state=red, None, None, None, None / action=[-0.43993027254039174, 0.5275763327078373, -0.6482172069960914, -0.1769912615026339]
+state=red, None, None, right, forward / action=[0.05603094476370751, -0.6604178587928258, 0.5327627952394485, 0.20051082461362224]
+state=red, right, None, None, right / action=[-0.3317029371325533, 0.07850067134153482, 0.8625341490307652, 0.09179188088909163]
+state=red, None, None, None, forward / action=[1.0312232120839932e-32, -0.9912702539749911, -0.9039222833039865, -0.19969221884184385]
+state=red, None, forward, None, right / action=[0.39125300709238675, -0.48420597616613503, -0.6676545596570003, -0.54593971818628]
+state=red, forward, None, None, forward / action=[-0.27401441701165186, -0.5080228260536834, -0.9867242534796774, -0.3499135403626908]
+state=red, forward, None, None, right / action=[0.22182271896838568, -0.47824312070000774, -0.5725817269417393, 1.235606045394409]
+state=green, left, None, None, forward / action=[0.24272286238308127, -0.0462442921086057, 0.09386378891231595, 0.16198132808219645]
+state=green, forward, None, None, forward / action=[0.4056670867591159, 1.7047256092707515, -0.5045322695114411, -0.5320745738632214]
+state=green, None, left, None, forward / action=[0.17760144018256674, 0.5289589314584124, -0.027595764955104407, -0.8526035694851759]
+state=green, None, None, forward, left / action=[0.4519125242536848, 0.531648843082223, 0.012043033475616083, 0.5859047269490063]
+state=green, None, right, None, left / action=[0.5594808366254951, -0.54007990661264, 0.9830881122309219, -0.3565647594529504]
+state=green, None, None, left, right / action=[0.49948305791366887, 0.3649211684213354, -0.17432190409111326, -0.9364933026780751]
+state=green, None, right, None, forward / action=[0.27242604860781316, 1.4988318314349587, 0.08867331405794698, -0.6240230352197478]
+state=red, None, None, None, left / action=[8.362322883680084e-08, -0.31952772995283674, -0.24463679898041324, -0.14759654288549884]
+state=green, None, forward, None, right / action=[-0.6871887590086498, -0.25919951007162734, -0.12395540282814185, -0.22670566540015002]
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/numpy/core/_methods.py:59: RuntimeWarning: Mean of empty slice.
+  warnings.warn("Mean of empty slice.", RuntimeWarning)
+Traceback (most recent call last):
+  File "agent.py", line 710, in <module>
+    scorePerRun(QLdeadlines,QLrewards)
+  File "agent.py", line 181, in scorePerRun
+    [(np.mean(DL[i-avgDist:i+avgDist])+np.mean(RW[i-avgDist:i+avgDist]))/2 for i in range(len(DL))],
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/numpy/core/fromnumeric.py", line 2885, in mean
+    out=out, keepdims=keepdims)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/numpy/core/_methods.py", line 65, in _mean
+    ret = umr_sum(arr, axis, dtype, out, keepdims)
+TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'
+ 👾  python agent.py
+in console
+Environment ready
+Redirector ready
+run ready
+Graph display ready
+RandomAgent ready
+StateAgent Ready
+BasicLearningAgent Ready
+LearningAgent Ready
+runGrid ready
+running....
+Simulator.__init__(): Unable to import pygame; display disabled.
+ImportError: dlopen(/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pygame/base.so, 2): no suitable image found.  Did find:
+	/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pygame/base.so: no matching architecture in universal wrapper
+Simulator.run(): Trial 0
+Environment.reset(): Trial set up with start = (8, 1), destination = (5, 2), deadline = 20
+RoutePlanner.route_to(): destination = (5, 2)
+Trial 0 - Goal reached 0 times out of 0!
+----------------------------------------------------------
+Environment.step(): Primary agent ran out of time! Trial aborted.
+Simulator.run(): Trial 1
+Environment.reset(): Trial set up with start = (6, 4), destination = (8, 1), deadline = 25
+RoutePlanner.route_to(): destination = (8, 1)
+FAIL! 0 steps to goal,Goal reached 0 times out of 1!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Environment.step(): Primary agent ran out of time! Trial aborted.
+Simulator.run(): Trial 2
+Environment.reset(): Trial set up with start = (6, 2), destination = (3, 3), deadline = 20
+RoutePlanner.route_to(): destination = (3, 3)
+FAIL! 0 steps to goal,Goal reached 0 times out of 2!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 3
+Environment.reset(): Trial set up with start = (8, 6), destination = (6, 3), deadline = 25
+RoutePlanner.route_to(): destination = (6, 3)
+PASS! 8 steps to goal,Goal reached 1 times out of 3!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 4
+Environment.reset(): Trial set up with start = (1, 1), destination = (3, 6), deadline = 35
+RoutePlanner.route_to(): destination = (3, 6)
+PASS! 5 steps to goal,Goal reached 2 times out of 4!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 5
+Environment.reset(): Trial set up with start = (2, 1), destination = (8, 6), deadline = 55
+RoutePlanner.route_to(): destination = (8, 6)
+PASS! 19 steps to goal,Goal reached 3 times out of 5!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 6
+Environment.reset(): Trial set up with start = (2, 3), destination = (8, 4), deadline = 35
+RoutePlanner.route_to(): destination = (8, 4)
+PASS! 42 steps to goal,Goal reached 4 times out of 6!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 7
+Environment.reset(): Trial set up with start = (1, 6), destination = (6, 3), deadline = 40
+RoutePlanner.route_to(): destination = (6, 3)
+PASS! 15 steps to goal,Goal reached 5 times out of 7!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 8
+Environment.reset(): Trial set up with start = (3, 5), destination = (8, 2), deadline = 40
+RoutePlanner.route_to(): destination = (8, 2)
+PASS! 24 steps to goal,Goal reached 6 times out of 8!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Environment.step(): Primary agent ran out of time! Trial aborted.
+Simulator.run(): Trial 9
+Environment.reset(): Trial set up with start = (1, 6), destination = (8, 4), deadline = 45
+RoutePlanner.route_to(): destination = (8, 4)
+FAIL! 0 steps to goal,Goal reached 6 times out of 9!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 10
+Environment.reset(): Trial set up with start = (3, 3), destination = (7, 4), deadline = 25
+RoutePlanner.route_to(): destination = (7, 4)
+PASS! 26 steps to goal,Goal reached 7 times out of 10!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 11
+Environment.reset(): Trial set up with start = (7, 6), destination = (7, 2), deadline = 20
+RoutePlanner.route_to(): destination = (7, 2)
+PASS! 15 steps to goal,Goal reached 8 times out of 11!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 12
+Environment.reset(): Trial set up with start = (6, 3), destination = (3, 4), deadline = 20
+RoutePlanner.route_to(): destination = (3, 4)
+PASS! 12 steps to goal,Goal reached 9 times out of 12!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 13
+Environment.reset(): Trial set up with start = (7, 4), destination = (4, 1), deadline = 30
+RoutePlanner.route_to(): destination = (4, 1)
+PASS! 14 steps to goal,Goal reached 10 times out of 13!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Environment.step(): Primary agent ran out of time! Trial aborted.
+Simulator.run(): Trial 14
+Environment.reset(): Trial set up with start = (8, 6), destination = (3, 3), deadline = 40
+RoutePlanner.route_to(): destination = (3, 3)
+FAIL! 0 steps to goal,Goal reached 10 times out of 14!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 15
+Environment.reset(): Trial set up with start = (8, 2), destination = (4, 3), deadline = 25
+RoutePlanner.route_to(): destination = (4, 3)
+PASS! 28 steps to goal,Goal reached 11 times out of 15!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 16
+Environment.reset(): Trial set up with start = (5, 5), destination = (8, 3), deadline = 25
+RoutePlanner.route_to(): destination = (8, 3)
+PASS! 10 steps to goal,Goal reached 12 times out of 16!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 17
+Environment.reset(): Trial set up with start = (1, 1), destination = (6, 4), deadline = 40
+RoutePlanner.route_to(): destination = (6, 4)
+PASS! 16 steps to goal,Goal reached 13 times out of 17!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 18
+Environment.reset(): Trial set up with start = (8, 6), destination = (4, 6), deadline = 20
+RoutePlanner.route_to(): destination = (4, 6)
+PASS! 20 steps to goal,Goal reached 14 times out of 18!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 19
+Environment.reset(): Trial set up with start = (8, 5), destination = (7, 2), deadline = 20
+RoutePlanner.route_to(): destination = (7, 2)
+PASS! 16 steps to goal,Goal reached 15 times out of 19!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 20
+Environment.reset(): Trial set up with start = (7, 5), destination = (8, 1), deadline = 25
+RoutePlanner.route_to(): destination = (8, 1)
+PASS! 10 steps to goal,Goal reached 16 times out of 20!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 21
+Environment.reset(): Trial set up with start = (8, 6), destination = (1, 3), deadline = 50
+RoutePlanner.route_to(): destination = (1, 3)
+PASS! 9 steps to goal,Goal reached 17 times out of 21!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 22
+Environment.reset(): Trial set up with start = (4, 2), destination = (7, 4), deadline = 25
+RoutePlanner.route_to(): destination = (7, 4)
+PASS! 18 steps to goal,Goal reached 18 times out of 22!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 23
+Environment.reset(): Trial set up with start = (8, 2), destination = (6, 4), deadline = 20
+RoutePlanner.route_to(): destination = (6, 4)
+PASS! 13 steps to goal,Goal reached 19 times out of 23!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 24
+Environment.reset(): Trial set up with start = (5, 6), destination = (7, 1), deadline = 35
+RoutePlanner.route_to(): destination = (7, 1)
+PASS! 15 steps to goal,Goal reached 20 times out of 24!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 25
+Environment.reset(): Trial set up with start = (4, 1), destination = (4, 5), deadline = 20
+RoutePlanner.route_to(): destination = (4, 5)
+PASS! 11 steps to goal,Goal reached 21 times out of 25!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 26
+Environment.reset(): Trial set up with start = (4, 4), destination = (2, 2), deadline = 20
+RoutePlanner.route_to(): destination = (2, 2)
+PASS! 5 steps to goal,Goal reached 22 times out of 26!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 27
+Environment.reset(): Trial set up with start = (5, 1), destination = (7, 4), deadline = 25
+RoutePlanner.route_to(): destination = (7, 4)
+PASS! 1 steps to goal,Goal reached 23 times out of 27!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 28
+Environment.reset(): Trial set up with start = (6, 6), destination = (2, 2), deadline = 40
+RoutePlanner.route_to(): destination = (2, 2)
+PASS! 10 steps to goal,Goal reached 24 times out of 28!
+----------------------------------------------------------
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 29
+Environment.reset(): Trial set up with start = (4, 2), destination = (7, 6), deadline = 35
+RoutePlanner.route_to(): destination = (7, 6)
+PASS! 20 steps to goal,Goal reached 25 times out of 29!
+----------------------------------------------------------
+
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 30
+Environment.reset(): Trial set up with start = (6, 6), destination = (2, 5), deadline = 25
+RoutePlanner.route_to(): destination = (2, 5)
+PASS! 16 steps to goal,Goal reached 26 times out of 30!
+----------------------------------------------------------
+^CSuccessful runs = 26
+----------------------------------------------------------
+Qtable:  28
+state=light, oncoming, right, left, next_waypoint  / actions= [None, 'forward', 'left', 'right']
+
+state=green, right, None, None, right / action=[0.05755791140140487, 0.4676241591681649, -0.3615985046887735, 0.4428793192541438]
+state=red, None, None, forward, forward / action=[-0.5357038129202274, 0.7876150707894602, -0.510887660606252, -0.440072238317043]
+state=red, None, None, None, right / action=[0.7069176722721553, -0.7226199854146487, -0.9097915405419205, 2.186469358297903]
+state=red, left, None, None, forward / action=[-0.47302573029544637, -0.32094590655817123, -0.38529702963899115, -0.3787603306547531]
+state=red, None, None, left, right / action=[-0.3289545417429627, -0.7110804496814201, 0.27151320450729033, -0.262979834676746]
+state=green, None, left, None, forward / action=[-0.12274741063704472, -0.28039099046287785, -0.5723687956532428, -0.26014958111675723]
+state=green, None, None, None, forward / action=[0.18103097703271134, 2.7110655697739237, -0.32031032960426764, -0.3144891448377417]
+state=red, right, None, None, None / action=[-0.3339813518072785, 0.2277499618403367, -0.14223449428493717, 0.11804645195200858]
+state=green, None, None, None, left / action=[-0.08189464274891378, -0.6142277161004464, 5.849147822254005, -0.2333323702109305]
+state=green, None, None, None, None / action=[-0.7440926799882257, -0.7227465475451147, 0.7868621038588952, 0.4650063081146849]
+state=green, None, right, None, None / action=[-0.30320714002752114, 0.3741007300177599, -0.6049788205657576, -0.5577459380806518]
+state=red, None, forward, None, left / action=[0.22727038464907157, 0.29756049918137095, 0.36738647492489096, -0.5062582209956106]
+state=green, None, None, forward, forward / action=[0.2156658060855865, 0.0778695920601089, 0.23138642816730903, -0.4163986947810707]
+state=green, None, None, None, right / action=[3.0179082359688745e-21, -0.5327472593446011, -0.2518445112596015, -0.16107458063918134]
+state=red, None, left, None, forward / action=[-0.8243732377212252, -0.3515177122531652, -0.4915859383485056, -0.0202213759228258]
+state=red, None, None, None, forward / action=[1.3148716311970802e-42, -0.8157210191594068, -0.2148613059945219, -0.37672715410519925]
+state=red, None, forward, None, right / action=[0.5872267043996953, -0.3123722602108133, 0.28672473237491536, -0.39430412094768297]
+state=red, None, None, None, None / action=[0.1543457994380515, -0.0035246474111441106, -0.8370215630034175, 0.9730492757573739]
+state=red, forward, None, None, right / action=[0.05159122271648499, -0.497349190706855, -0.21019863720048826, 0.0871506174928185]
+state=green, None, None, left, None / action=[-0.025553609816968637, 0.334158545965654, -0.7089296731924359, 0.12701368630360643]
+state=green, left, None, None, forward / action=[0.14621245289426726, 1.6094061724845543, -0.5230534552956962, 0.18579333212423776]
+state=green, None, forward, None, forward / action=[0.5540313268611896, 0.17568498107494857, 0.2677735238630579, -0.9235293583175033]
+state=green, None, None, left, forward / action=[-0.6115834891255059, -0.30884270053784757, -0.25639391491432084, -0.9850511869248562]
+state=green, forward, None, None, left / action=[0.7184423195601259, 0.10377891901238945, -0.7506424276238115, 0.38680813277805326]
+state=green, None, None, forward, right / action=[-0.1389725936582169, 0.758794769486252, -0.17775936360070288, 0.5608982456209524]
+state=green, None, forward, None, right / action=[0.06440412272289509, 0.2011972750562303, 0.34648389297855586, 0.6217798809183643]
+state=red, None, None, None, left / action=[1.5535981149487275e-11, -0.5800147294274619, -0.5609604712822311, -0.11086216123426043]
+state=green, forward, None, None, right / action=[-0.17602912491739786, -0.28195924117498383, -0.35621670537085137, -0.3313191286534609]
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/numpy/core/_methods.py:59: RuntimeWarning: Mean of empty slice.
+  warnings.warn("Mean of empty slice.", RuntimeWarning)
+
+Q Learning Agent done
